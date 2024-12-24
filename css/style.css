@@ -1,18 +1,16 @@
 @charset "utf-8";
-
-body {
-  
-}
+/* bodyのデザイン */
 
 /* headerのデザイン */
+.header{
+  margin-top: 35px;
+}
+
 .header-logo{
   width: 204px;
   margin: 0,auto;
 }
 
-.header-nav{
-  margin-top: 35px;
-}
 .nav-list{
   display: flex;
   justify-content: end;
