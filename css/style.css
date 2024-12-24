@@ -1,2 +1,23 @@
 @charset "utf-8";
 
+body {
+  
+}
+
+/* headerのデザイン */
+.header-logo{
+  width: 204px;
+  margin: 0,auto;
+}
+
+.header-nav{
+  margin-top: 35px;
+}
+.nav-list{
+  display: flex;
+  justify-content: end;
+}
+
+.nav-item + .nav-item{
+  margin-left: 57px;
+}
