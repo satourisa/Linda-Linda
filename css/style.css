@@ -1,21 +1,30 @@
 @charset "utf-8";
-/* bodyのデザイン */
+/* body */
 
-/* headerのデザイン */
-.header{
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header-logo {
+  width: 204px;
   margin-top: 35px;
 }
 
-.header-logo{
-  width: 204px;
-  margin: 0,auto;
+.header-nav {
+  margin-top: 35px;
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   justify-content: end;
 }
 
-.nav-item + .nav-item{
-  margin-left: 57px;
+.nav-item + .nav-item {
+  margin-left: 40px;
 }
+
