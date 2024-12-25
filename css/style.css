@@ -35,4 +35,27 @@
 }
 
 /* main */
+.about {
+  display: flex;
+  position: relative;
+}
+
+.section-ttl {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+
+.about-txt {
+  position: absolute;
+  z-index: 0;
+}
+
+.about-txt-bg {
+  width: 637px;
+  height: 360px;
+  position: absolute;
+  z-index: -10;
+}
 
